@@ -4,13 +4,13 @@ Package provides functionality for Classic and Imprecise Structural Reliability 
 
 # Installation
 Either install from the github repository (latest version),
-pip install git+https://github.com/marizakntnu/imprel.git
+```pip install git+https://github.com/marizakntnu/imprel.git```
 
 install from the python package index
-pip install imprel
+```pip install imprel```
 
 or from the conda-forge:
-conda install --channel=conda-forge imprel
+```conda install --channel=conda-forge imprel```
 
 
 
@@ -22,7 +22,7 @@ The code example below shows how the Classic and Imprecise reliability
 of the simple system R-S can be calculated:
 
 ```
->>> import imprel
+import imprel
 import scipy.stats as stats
 
 def obj_func(x):
