@@ -32,7 +32,7 @@ def obj_func(x):
 
 
 
-# Structural Reliability Analysis case
+#Structural Reliability Analysis case
 mr = 1.
 sr = .14
 
@@ -46,7 +46,7 @@ res_sra = imprel.Analysis(variables, obj_function=obj_func, nsamples=10000)
  
 
                   
-# Imprecise Structural Reliability Analysis case
+#Imprecise Structural Reliability Analysis case
 mr1 = .7
 sr1 = .14
 
