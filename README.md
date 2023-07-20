@@ -3,7 +3,6 @@ Package provides functionality for Classic and Imprecise Structural Reliability 
 
 
 # Installation
-________________________
 Either install from the github repository (latest version),
 pip install git+https://github.com/marizakntnu/imprel.git
 
@@ -16,7 +15,6 @@ conda install --channel=conda-forge imprel
 
 
 # Usage
-________________________
 The package provides functionality for Structural Reliability Analysis (SRA) 
 and Imprecise Structural Reliability Analysis (ISRA) using intervals and p-boxes.
  
@@ -24,7 +22,7 @@ The code example below shows how the Classic and Imprecise reliability
 of the simple system R-S can be calculated:
 
 
-import imprel
+>>> import imprel
 import scipy.stats as stats
 
 def obj_func(x):
