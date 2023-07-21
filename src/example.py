@@ -1,33 +1,3 @@
-imprel
-________________________
-Python package for Imprecise Structural Reliability Analysis. The package
-requires numpy, time, os, pickle, abc, scipy.stats, matplotlib.pyplot,
-minimize from scipy.optimize, interp1d from scipy.interpolate
-
-
-
-Installation
-________________________
-Either install from the github repository (latest version),
-pip install git+https://github.com/marizakntnu/imprel.git
-
-install from the python package index
-pip install imprel
-
-or from the conda-forge:
-conda install --channel=conda-forge imprel
-
-
-
-Usage
-________________________
-The package provides functionality for Structural Reliability Analysis (SRA) 
-and Imprecise Structural Reliability Analysis (ISRA) using intervals and p-boxes.
- 
-The code example below shows how the Classic and Imprecise reliability
-of the simple system R-S can be calculated:
-
-
 import imprel
 import scipy.stats as stats
 

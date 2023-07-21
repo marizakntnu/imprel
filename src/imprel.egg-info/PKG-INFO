@@ -1,3 +1,17 @@
+Metadata-Version: 2.1
+Name: imprel
+Version: 0.0.1
+Summary: Package provides functionality for Classic and Imprecise Structural Reliability Analysis.
+Home-page: https://github.com/marizakntnu/imprel
+Author: Mariia Zakharenko
+Author-email: "M. Zakharenko" <maria.zakharova@ntnu.no>, "G. T. Frøseth" <gunnstein.t.froseth@ntnu.no>
+Project-URL: Bug Tracker, https://github.com/marizakntnu/imprel/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
 imprel
 ________________________
 Python package for Imprecise Structural Reliability Analysis. The package

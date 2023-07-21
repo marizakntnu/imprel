@@ -1,0 +1,2 @@
+[console_scripts]
+www = imprel.utils:sayHello

@@ -3,12 +3,17 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find] # Specific for setup tools
-execlude = [test.py] # Only for test/dev, not part of package.
+where = ["src"]  # ["."] by default
 
 [project]
 name = "imprel"
-version = "0.1" #Follow PEP440
+version = "0.0.1"
 authors = [{name="M. Zakharenko", email="maria.zakharova@ntnu.no"}, {name="G. T. Frøseth", email="gunnstein.t.froseth@ntnu.no"},]
 description = "Package provides functionality for Classic and Imprecise Structural Reliability Analysis."
+readme = "README.md"
 requires-python = ">=3"
 dependencies = ["numpy", "time", "os", "pickle", "abc", "scipy.stats", "scipy.optimize", "scipy.interpolate", "matplotlib.pyplot"]
+
+[tool.setuptools]
+include-package-data = true
+
