@@ -24,7 +24,7 @@ and Imprecise Structural Reliability Analysis (ISRA) using intervals and p-boxes
 The code example below shows how the Classic and Imprecise reliability
 of the simple system R-S can be calculated:
 
-
+```
 import imprel
 import scipy.stats as stats
 
@@ -66,3 +66,4 @@ variables = [imprel.initiate_variable('p', 'r', [stats.norm(mr1, sr1),
                                                  stats.norm(ms2, ss2)])]
 
 res_isra = imprel.Analysis(variables, obj_function=obj_func, nsamples=10000)
+```
