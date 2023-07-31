@@ -1,7 +1,7 @@
 # imprel
-Python package for Imprecise Structural Reliability Analysis. The package
-requires numpy, time, os, pickle, abc, scipy.stats, matplotlib.pyplot,
-minimize from scipy.optimize, interp1d from scipy.interpolate
+Python package for Imprecise Structural Reliability Analysis.
+The package requires ```numpy```, ```time```, ```os```, ```pickle```, ```abc```, ```scipy.stats```, ```matplotlib.pyplot```,
+```minimize from scipy.optimize```, ```interp1d from scipy.interpolate```.
 
 
 
