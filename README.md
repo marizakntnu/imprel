@@ -34,11 +34,8 @@ def obj_func(x):
 
 
 # Structural Reliability Analysis case
-mr = 1.
-sr = .14
-
-ms = .2
-ss = .2
+mr, sr = 1., .14
+ms, ss = .2, .2
 
 variables = [imprel.initiate_variable('c', 'r', stats.norm(mr, sr)),
              imprel.initiate_variable('c', 's', stats.norm(ms, ss))]
@@ -48,17 +45,11 @@ res_sra = imprel.Analysis(variables, obj_function=obj_func, nsamples=10000)
 
                   
 # Imprecise Structural Reliability Analysis case
-mr1 = .7
-sr1 = .14
+mr1, sr1 = .7, .14
+mr2, sr2 = .8, .14
 
-mr2 = .8
-sr2 = .14
-
-ms1 = .2
-ss1 = .2
-
-ms2 = .1
-ss2 = .2
+ms1, ss1 = .2, .2
+ms2, ss2 = .1, .2
 
 variables = [imprel.initiate_variable('p', 'r', [stats.norm(mr1, sr1),
                                                  stats.norm(mr2, sr2)]),
