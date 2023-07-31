@@ -9,7 +9,7 @@ minimize from scipy.optimize, interp1d from scipy.interpolate
 Installation
 ________________________
 Either install from the github repository (latest version),
-pip install git+https://github.com/marizakntnu/imprel.git
+'pip install git+https://github.com/marizakntnu/imprel.git'
 
 install from the python package index
 pip install imprel
